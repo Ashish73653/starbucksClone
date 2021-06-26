@@ -28,3 +28,54 @@ footer h3{
     font-weight: 400;
     margin-bottom: 24px;
 }
+.rule{
+    padding: 1.2rem 0;
+    display: block;
+}
+.social-logos{
+    display: flex;
+    margin-left: -5px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.social-logos .logo{
+    display: flex;
+    height: 44px;
+    width: 44px;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-logos img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+.last-section{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.last-section .item-last{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 550;
+}
+.last-section .item-last li{
+    padding: 0 16px;
+}
+.copy{
+    display: flex;
+    margin: 0 auto;
+    margin: 16px 0;
+}
+.copy p{
+    display: flex;
+    padding: 16px 0;
+    font-size: 13px;
+    margin: 0 4em;
+    color:rgba(0,0,0,.56);
+}
