@@ -79,3 +79,18 @@ footer h3{
     margin: 0 4em;
     color:rgba(0,0,0,.56);
 }
+@media (max-width:780px){
+    .last-section .item-last {
+        display: block;
+    }
+    .last-section .item-last li{
+        padding: 12px 0;
+        font-weight: 200;
+    }
+    .last-section .item-last li:nth-child(2n){
+        display: none;
+    }
+    .copy p{
+        margin: 0;
+    }
+}

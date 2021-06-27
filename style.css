@@ -24,6 +24,7 @@ header{
     justify-content: space-between;
 }
 .logo{
+    display: flex;
     height: 51px;
     width: 51px;
 }
@@ -91,4 +92,27 @@ header{
 .join-now:hover{
     background-color: rgba(0, 0, 0, .7);
     color: rgba(0, 0, 0, .7);
+}
+@media (min-width:780px){
+    .mob-nav{
+        display: none;
+    }
+}
+@media (max-width:780px){
+    .left-nav{
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    .mob-nav{
+        display: flex;
+        min-width: 100%;
+        align-items: center;
+        padding-left: 24px;
+        justify-content: space-between;
+    }
+    .material-icons{
+        padding-right: 24px;
+    }
 }
