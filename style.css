@@ -56,11 +56,6 @@ header{
     display: flex;
     align-items: center;
 }
-.right-nav .find-store img{
-    height: 31px;
-    width: 25px;
-    padding-right: 8px;
-}
 .right-nav .find-store{
     display: flex;
     align-items: center;

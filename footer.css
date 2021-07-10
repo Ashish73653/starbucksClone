@@ -93,4 +93,7 @@ footer h3{
     .copy p{
         margin: 0;
     }
+    .footer-container{
+        display: none;
+    }
 }
