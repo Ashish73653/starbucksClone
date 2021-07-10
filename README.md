@@ -1,3 +1,3 @@
 # starbucksClone
-Clone of <a href="starbucks.com">Starbucks</a>
+Clone of www.starbucks.com
 STARBUCKS CLONE
